@@ -1,0 +1,5 @@
+DEBUG:root:Отладочная информация
+INFO:root:Для информации
+WARNING:root:Предупреждение: файл server.conf не найден
+ERROR:root:Произошла ошибка!
+CRITICAL:root:Критическая ошибка - выход
