@@ -1,5 +1,5 @@
 import unittest
-from source.main.DBDriver import DBDriver
+from db.source.main.DBDriver import DBDriver
 
 
 class DBDriverTest(unittest.TestCase):
