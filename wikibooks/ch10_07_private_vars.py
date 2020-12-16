@@ -36,7 +36,7 @@ class ClosPriv:
 
 		self.setPrivateProp = setPrivateProp
 
-print('Using closures:');
+print('Using closures:')
 obj2 = ClosPriv()
 print('obj2.getPrivateProp():', obj2.getPrivateProp())
 obj2.setPrivateProp('Ololo')
