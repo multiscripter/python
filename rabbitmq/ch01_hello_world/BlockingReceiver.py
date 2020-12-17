@@ -9,7 +9,7 @@ class BlockingReceiver:
         self.queue = None
 
     def callback(self, ch, method, properties, body):
-        print(f'BlockingReceiver: {body}')
+        print(f'BlockingReceiver: message: {body}')
         # self.msg = body
 
     def close(self):

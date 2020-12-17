@@ -9,6 +9,7 @@ class BlockingSender:
 
     def close(self):
         self.conn.close()
+        print(f'BlockingSender: closed', flush=True)
 
     def connect(self, host: str = 'localhost', queue: str = 'default'):
         self.queue = queue
@@ -26,7 +27,7 @@ class BlockingSender:
         self.ch.basic_publish(
             exchange='', routing_key=routing_key, body=msg
         )
-        print(f'BlockingSender: {msg}')
+        print(f'BlockingSender message: {msg}', flush=True)
 
 
 if __name__ == '__main__':

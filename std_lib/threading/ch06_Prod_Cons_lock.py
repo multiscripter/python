@@ -1,5 +1,5 @@
 # Проблема "производитель-потребитель" (Producer-Consumer Problem)
-# на же "Bounded-buffer problem".
+# она же "Bounded-buffer problem".
 
 # Решение с использоваием Lock.
 # Класс Queue в Python потокобезопасен !!!
